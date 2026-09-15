@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "PORT=4173 BASE_PATH=/ pnpm --filter @workspace/arslan-razzaq-portfolio run build",
+  "outputDirectory": "artifacts/arslan-razzaq-portfolio/dist/public",
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile"
+}
